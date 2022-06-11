@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/formulario.css">
+
+</head>
+<body>
+    <header>
+        <img src="./img/logo-color.png" alt="logo empresa Shoes 
+        'uma sacola rosa seguida do nome Shoes'">
+
+        <nav>
+           <ul>
+               <li>
+                   <a href="#">
+                    TODOS OS PRODUTOS 
+                   </a>
+               </li>
+               <li> 
+                <a href="#"> 
+                    COLEÇÕES  
+                </a>  
+            </li>
+            <li> <a href="#">
+                OUTLET
+            </a>
+            </li>
+           </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="faixa-aviso">
+
+            <p>MÊS DE SETEMBRO - FRETE GRÁTIS PARA TODO O BRASIL</p>
+        </section>
+
+        <section>
+           <form action="/usuários" method="post" enctype="multipart/form-data">
+               <h1>Faça parte do nosso time</h1>
+
+               <div class="input-group">
+                   <label for="nome">Nome</label>
+                   <input type="text" id="nome" name="nome">
+               </div>
+
+               <div class="input-group">
+                   <label for="email">Email</label>
+                   <input type="email" id="email" name="email">
+               </div>
+
+               <div class="input-group">
+                   <label for="telefone">Telefone</label>
+                   <input type="text" id="telefone" name="telefone" required>
+               </div>
+               <div class="input-group">
+                   <label for="departamentos">Departamentos</label>
+                   <select name="departamentos" id="departamentos">
+                       <option value="rh">RH</option>
+                       <option value="ti">Tecnologia da Informação</option>
+                       <option value="vendas">Vendas</option>
+                   </select>
+               </div>
+
+               <div class="input-group">
+                   <p>Disponibilidade</p>
+                   <div>
+                       <input type="checkbox" id="disponibilidade-integral" name="disponibilidade" value="integral">
+                       <label for="disponibilidade-integral">Integral (8h)</label>
+
+                       <input type="checkbox" id="disponibilidade-meio" name="disponibilidade" value="meio">
+                       <label for="disponibilidade-meio">Meio período (4h)</label>
+
+                       <input type="checkbox" name="disponibilidade-freelancer" value="freelancer">
+                       <label for="disponibilidade-freelancer">Freelancer</label>
+                   </div>
+               </div>
+
+               <div class="input-group">
+                   <p>Qual a melhor forma para entrarmos em contato com você?</p>
+                   <div>
+                    <input type="radio" id="melhor-email" name="disponibilidade" value="email">
+                    <label for="melhor-email">Email</label>
+
+                    <input type="radio" id="melhor-ligacao" name="disponibilidade" value="ligacao">
+                    <label for="melhor-ligacao">Ligação</label>
+
+                    <input type="radio" id="melhor-whatsapp" name="disponibilidade" value="whatsapp">
+                    <label for="melhor-whatsapp">Whatsapp</label>
+                   </div> 
+               </div>
+               
+               <div class="input-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+               </div>
+
+               <div class="input-group">
+                <label for="curriculo">Currículo</label>
+                   <label for="curriculo">upload</label>
+                   <input type="file" id="curriculo">
+               </div>
+
+               <button type="submit">enviar</button>
+           </form>
+
+           <aside>
+               <p>
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                   Repellendus vellabore, 
+                   accusamus quod quidem tempore consequuntur
+                    maxime ea impedit nemo nobis? 
+                   Ducimus dolore recusandae totam veniam. 
+                   Fugiat temporibus voluptates omnis!
+               </p>
+
+               <br>
+
+               <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam 
+                   eius 
+                   saepe natus voluptates ipsum cumque dolorum voluptatum nihil 
+                   nesciunt illo! 
+                   Excepturi laboriosam hic inventore voluptatem exercitationem
+                   similique 
+                   accusamus consequatur iusto?
+               </p>
+
+               <br>
+
+               <p>
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                    quos! 
+                   Aut natus dignissimos expedita voluptatibus facilis officiis,
+                    tempora dicta 
+                   quasi, 
+                   totam id ducimus blanditiis excepturi quis deserunt doloremque
+                    nisi sint.
+               </p>
+           </aside>
+        </section>
+    </main>
+
+     <footer>
+         <div>
+             <img src="./img/logo-white.png" alt="Logo Branco">
+
+             <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Eum, blanditiis quia iure tenetur optio 
+                 voluptatem.
+             </p>
+         </div>
+
+         <ul>
+            <li class="title">categorias</li>
+            <li>sandálias</li>
+            <li>botas</li>
+            <li>tênis</li>
+            <li>oxford</li>
+            <li>conturnos</li>
+         </ul>
+
+         <ul>
+            <li class="title">institucional</li>
+            <li>sobre nós</li>
+            <li>perguntas frequentes</li>
+            <li>política de privacidade</li>
+            <li>rastreamento de pedidos</li>
+            <li>
+                <a href="./formulário.html">trabalhe conosco</a>
+            </li>
+            <li>contato</li> 
+         </ul>
+     </footer>      
+</body>
+</html>
